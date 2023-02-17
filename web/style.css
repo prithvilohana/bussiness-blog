@@ -1,0 +1,54 @@
+.nav-item {
+  font-weight: 500;
+}
+
+.carousel-caption h5 {
+  font-size: 3em;
+  font-weight: bold;
+
+}
+
+.carousel-caption p {
+  font-size: 1em;
+  font-weight: 300;
+
+}
+
+@media (max-width: 767px) {
+  .carousel-caption button {
+    bottom: 10px;
+  }
+
+  .carousel-caption {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+}
+
+#abc img {
+  max-width: 100%;
+   height: auto;
+   width: auto\9; /* IE8 */
+}
+
+@media (max-width: 480px) {
+  #abc img {
+    width: 100%;
+  }
+}
+#abc .btn {
+  max-width: 100%;
+   height: auto;
+   width: 75%;
+   align-items: center;
+}
+
+
+@media (max-width: 480px) {
+  #abc .btn {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+
